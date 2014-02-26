@@ -47,10 +47,37 @@
   ```
   
 5. Группировка свойств:
-  * box model;
-  * position;
-  * background;
-  * content, table.
+
+| Box model           | Position | Background            | Typography & Table          | Etc.              |
+|---------------------|----------|-----------------------|-----------------------------|-------------------|
+| border-radius       | position | background            | border-collapse             | content           |
+| box-sizing          | top      | background-color      | border-spacing              | counter-increment |
+| box-shadow          | right    | background-image      | caption-side                | counter-reset     |
+| border              | bottom   | background-repeat     | color                       | cursor            |
+| clear               | left     | background-attachment | font                        | opacity           |
+| clip                | z-index  | background-position   | font-family                 | resize            |
+| display             |          | background-size       | font-size                   | visibility        |
+| float               |          | background-clip       | font-stretch                |                   |
+| height (min-, max-) |          | background-origin     | font-style                  |                   |
+| width (min-, max-)  |          |                       | font-variant                |                   |
+| margin              |          |                       | font-weight                 |                   |
+| padding             |          |                       | letter-spacing              |                   |
+| outline             |          |                       | line-height                 |                   |
+| overflow            |          |                       | list-style                  |                   |
+|                     |          |                       | list-style list-style-image |                   |
+|                     |          |                       | list-style-position         |                   |
+|                     |          |                       | list-style-type             |                   |
+|                     |          |                       | quotes                      |                   |
+|                     |          |                       | text-align                  |                   |
+|                     |          |                       | text-decoration             |                   |
+|                     |          |                       | text-indent                 |                   |
+|                     |          |                       | text-overflow               |                   |
+|                     |          |                       | text-shadow                 |                   |
+|                     |          |                       | text-transform              |                   |
+|                     |          |                       | vertical-align              |                   |
+|                     |          |                       | white-space                 |                   |
+|                     |          |                       | word-spacing                |                   |
+|                     |          |                       | word-wrap                   |                   |
   
 6. Префиксы: 
   * если в требованиях значатся акутульные версии браузеров, то имеет смысл убедиться в необходимости вендорных префиксов. К примеру, border-radius можно использовать без префиксов (http://caniuse.com/#search=border-radius). Актуальная информация доступна на http://caniuse.com/;
